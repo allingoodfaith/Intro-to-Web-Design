@@ -1,0 +1,3 @@
+1. Text editors keep everything clean when coding. They are also costumizible to the prefernces of the user. I've been using them for a few years and have gotten used to them in a coding contexts. 
+
+2. Relative links are good for something simple that doesn't have many links but can become messy quick if they are many. Absolute urls have every bit of infomation you would need to look for them if they go missing. 
