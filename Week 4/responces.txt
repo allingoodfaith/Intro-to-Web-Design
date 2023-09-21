@@ -1,0 +1,29 @@
+    Explain how web browsers function
+
+    It all starts with a request sent form a computer that gets sent to a server that then returns html, css, images and vidoes. The browser on the computer end of the question then is able to open and present those pages as called for by the parmeters of the documents retrived. 
+
+    Define and describe DOM
+
+    Dom is short for document object model. It's purpose is to server as an interface on how to access and change documents based on a node system. 
+
+    What is the difference between HTML XML and XHTML? 
+
+    HTML is the most widely used web langaue with a standatarized elements. 
+    XML stores in a text format which allows for simplified data sharing
+    XHMTL is simular to HTML but is much more strict about its code requirments which can make future changes difficult to impliment.
+
+    What are the 4 elements your HTML pages need? 
+
+    DOCTYPE
+    head 
+    body 
+    tags
+
+    What is the index.html page for? Where does it go? 
+
+    It acts as a hub for the all the pages of site as a home page. Often times it should come first for proper organization
+
+    Review: What are some of the best naming practices?
+    Keep names consistant. 
+    Keep things organized. 
+    No spaces or werid characters.
