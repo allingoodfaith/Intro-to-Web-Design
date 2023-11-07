@@ -1,0 +1,43 @@
+div
+{
+    text-align: center;
+    line-height: 2em;
+    font-family:'Heathergreen';
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.main-container
+{
+    border-style: solid ;
+    border-width: 8 px;
+    border-color: black;
+
+    padding: 15 px;
+
+    background: #3d6b5d;
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    font-family: 'JosefinSans_Semibold';
+}
+
+.opening-paragraph
+{
+    font-size: 30px;
+}
+
+.second-paragraph
+{
+    font-size: 20px;
+}
+
+a:link
+{
+    color: #3d6b5d;
+    text-decoration: none;
+}
