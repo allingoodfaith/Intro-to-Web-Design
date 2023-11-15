@@ -38,6 +38,29 @@ h1, h2, h3
 
 a:link
 {
-    color: #3d6b5d;
+    color:rgb(163, 24, 24);
     text-decoration: none;
+}
+
+.text-joke
+{
+    text-decoration: line-through;
+}
+
+.button:hover .change-01
+{
+    text-decoration-color: black;
+}
+
+button{
+    background-color: white;
+    border: none;
+    color: black;
+    border: 2px solid rgb(163, 24, 24);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
 }

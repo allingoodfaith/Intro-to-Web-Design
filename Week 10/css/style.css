@@ -5,18 +5,37 @@ body
 
 .main-container
 {
-    border-style: ;
-    border-width: ;
-    border-color: ;
+    border-style: solid ;
+    border-width: 8 px;
+    border-color: black;
 
-    padding: ;
+    padding: 15 px;
 
-    background: ;
-    width: ;
-    margin: ;
+    background: #E0F8F7;
+    width: 80%;
+    margin: auto;
 }
 
 div.align
 {
     text-align: center;
+}
+
+.secondary-container
+{
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    border-bottom: 1px black solid;
+    border-spacing: inherit;
+}
+
+#mainheader
+{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color:#E3CEF6 ;
+    opacity: .75;
+    font-size: 60 px;
 }
