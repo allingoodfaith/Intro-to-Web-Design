@@ -1,0 +1,70 @@
+.div
+{
+    text-align: center;
+    line-height: 3px;
+    font-family: Arial;
+    margin-bottom: 10px;
+    padding: 5px
+}
+
+.header
+{
+    position: fixed;
+    text-align: center;
+    top: 2px;
+    left: 2px;
+    font-family: Georgia;
+    color: black;
+    font-size: 10px;
+    width: 100%;
+}
+
+.menu-item
+{
+    display: inline-block;
+    margin: 2em .5em;
+    min-width: 5em;
+    text-align: center;
+    background-color: darkgrey;
+    padding: auto;
+}
+
+.body-paragraph
+{
+    background-color: aliceblue;
+}
+
+.h1
+{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    background-color: cadetblue;
+}
+
+.paragraph
+{
+    text-align: center;
+    color: cadetblue;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.image
+{
+    float: inline;
+    align-self: center;
+}
+
+ .textbox
+{
+    width: 100 px;
+    height: auto;
+    font-family: Georgia;
+    background-color: rgb(138, 177, 177);
+    border-radius: 20 px;
+    padding: 10 px;
+    margin: auto;
+    text-align: center;
+}
