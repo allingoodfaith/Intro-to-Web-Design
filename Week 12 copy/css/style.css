@@ -1,15 +1,7 @@
-.div
-{
-    text-align: center;
-    line-height: 3px;
-    font-family: Arial;
-    margin-bottom: 10px;
-    padding: 5px
-}
-
-.header
+header
 {
     position: fixed;
+    margin: auto;
     text-align: center;
     top: 2px;
     left: 2px;
@@ -22,11 +14,12 @@
 .menu-item
 {
     display: inline-block;
-    margin: 2em .5em;
+    margin: .05em;
     min-width: 5em;
     text-align: center;
     background-color: darkgrey;
-    padding: auto;
+    padding: .05em;
+    font-size: 20px;
 }
 
 .body-paragraph
@@ -34,12 +27,13 @@
     background-color: aliceblue;
 }
 
-.h1
+h1
 {
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     background-color: cadetblue;
+    font-variant: small-caps;
 }
 
 .paragraph
@@ -53,18 +47,20 @@
 
 .image
 {
-    float: inline;
-    align-self: center;
+    border: 15px;
+    color: white;
 }
 
  .textbox
 {
     width: 100 px;
-    height: auto;
+    height: 100 px;
     font-family: Georgia;
     background-color: rgb(138, 177, 177);
     border-radius: 20 px;
-    padding: 10 px;
-    margin: auto;
+    padding: 50px;
+    margin: 175px;
     text-align: center;
+    line-height: 50%;
+    overflow: scroll;
 }

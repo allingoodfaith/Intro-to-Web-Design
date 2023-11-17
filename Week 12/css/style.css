@@ -9,14 +9,12 @@ div
 
 .parent-container
 {
-    align-items: center;
-    width: 50%;
-    min-width: 200;
-    max-width: 300;
+    width: 120 px;
     height: 150 px;
     background-color: cadetblue;
     color: rgb(0, 0, 0);
     font-size: 15px;
+    margin: auto;
 }
 
 body
