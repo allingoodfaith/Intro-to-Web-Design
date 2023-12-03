@@ -1,0 +1,185 @@
+body
+{
+    background-color: rgb(205, 243, 255);
+}
+
+div
+{
+    text-align: left;
+    line-height: 1.5em;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
+h1, h2, h3
+{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+.paragraph-1
+{
+    color: black;
+    font-size: 15px;
+    text-indent: 10px;
+    font-weight: 500;
+}
+
+.paragraph-2
+{
+    color: black;
+    font-size: 15px;
+    text-indent: 10px;
+    font-weight: 500;
+}
+
+.paragraph-3
+{
+    color: black;
+    font-size: 15px;
+    text-indent: 10px;
+    font-weight: 500;
+}
+
+header
+{
+    position: fixed;
+    top: 0px;  
+    left: 0px;
+    background-color: black;
+    font-family: Arial;
+    text-transform: capitalize;
+    margin-top: 0;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-item
+{
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: black;
+    padding: .5em 1em;
+}
+
+.menu-item:hover
+{
+background-color: aliceblue;
+}
+
+.dropdown
+{
+    display: inline-block;
+}
+.dropdown-content
+{
+    display: none;
+    position: absolute;
+    border: 1px solid black;
+    margin: .5em 0 0 -1em;
+    color: black;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+.dropdown-item
+{
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: .5em 0 0 -1em;
+    min-width: 6em;
+}
+
+.dropdown-hover .dropdown-content
+{
+    display: block;
+}
+
+.dropdown-hover
+{
+    color: black;
+    background-color: aliceblue;
+}
+
+
+
+.image-one
+{
+    float: left;
+    content:("../images/sample-image-1.png");
+
+}
+
+
+@media only screen and (min-width: 600px) 
+{
+    .image-one
+    {
+        content:("../images/sample-image-1.png");
+    }
+}
+
+.image-two
+{
+    float:right;
+    content:("../images/sample-image-2.png");
+}
+
+
+@media only screen and (min-width: 600px) {
+    .image-two
+    {
+        float:right;
+        content:("../images/sample-image-2.png");
+    }
+}
+
+.image-three
+{
+    margin: auto;
+    content:("../images/sample-image-3.png");
+}
+
+
+@media only screen and (min-width: 600px)
+{
+    .image-three
+    {
+        margin: auto;
+        content:("../images/sample-image-3.png");
+    }
+}
+
+.image-four
+{
+    margin:auto;
+    content:("../images/sample-image-4.png");
+}
+
+
+@media only screen and (min-width: 600px) 
+{
+    .image-four
+    {
+        margin: auto;
+        content:("../images/sample-image-4.png");
+    }
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}

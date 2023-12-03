@@ -64,3 +64,23 @@ h1
     line-height: 50%;
     overflow: scroll;
 }
+
+.pop-up
+{
+ font-size: 10px;
+ padding: 10 px;
+ text-align: center;
+ color: black;
+ background-color: aquamarine;
+}
+
+.hidden-content
+{
+    display: none;
+    font-size: 10px;
+}
+
+.image :hover .hidden-content
+{
+    display: hover;
+}
